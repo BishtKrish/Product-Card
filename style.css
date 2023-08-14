@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    height: 330px;
+    width: 630px;
+    display: flex;
+    border-radius: 25px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    background-color: aliceblue;
+}
+
+.image img{
+    width: 285px;
+    height: 330px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.written{
+    padding: 40px;
+}
+h1{
+    margin-top: 20px;
+    font-family: 'Lilita One';
+}
+p{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+h7{
+    margin-bottom: 30px;
+    color: grey;
+    letter-spacing: 1.8;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+button{
+    background: green;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: white;
+    color: green;
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+.line{
+    text-decoration: line-through;
+    margin-top: 30px;
+}
+h2{
+    margin-top: 20px;
+    color: green;
+}
+button img{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
